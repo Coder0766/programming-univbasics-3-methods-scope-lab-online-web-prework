@@ -4,13 +4,14 @@ def mario
 end
 
 def toadstool
-  status = "Thank You Mario! But Our Princess Is In Another Castle!"
-  puts status
+  phrase = "Thank You Mario! But Our Princess Is In Another Castle!"
+  puts phrase
+end
 end
 
 def link
-  it "puts out 'It's Dangerous To Go Alone! Take This.'" do
-    expect{link}.to output("It's Dangerous To Go Alone! Take This.\n").to_stdout
+  phrase = "It's Dangerous To Go Alone! Take This." 
+  puts phrase
   end
 end
 
