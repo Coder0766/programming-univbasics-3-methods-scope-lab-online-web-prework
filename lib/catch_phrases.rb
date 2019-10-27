@@ -13,7 +13,7 @@ def link
   puts phrase
 end
 
-def Starfox
+def $any_phrase
     phrase = "Do A Barrel Roll!"
     puts phrase
 end
